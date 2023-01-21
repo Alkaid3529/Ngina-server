@@ -154,6 +154,7 @@ static void ngx_signal_handler(int signo, siginfo_t *siginfo, void *ucontext)
         switch (signo)
         {
         case SIGCHLD:     // 一般子进程退出会收到该信号
+            // 全局变量
             ngx_reap = 1; // 标记子进程状态变化，日后master主进程的for(;;)循环中可能会用到这个变量【比如重新产生一个子进程】
             break;
 
