@@ -5,7 +5,10 @@ This project built a high quality `multi-thread` and `high concurrency server pr
 In this project, the main development technology involves `epoll high concurrency technology` under Linux, `thread pool` technology, `thread synchronization` technology and unique `delay recovery connection` technology, etc. At the same time, it is equipped with signal processing, daemon process, configuration file reading and other functions. In order to ensure the stable operation of the server, many details are also completed. It is a very challenging project for the author, which refers to the architecture implementation of Nginx to some extent, and many of the details also refer to the implementation of Nginx.
 
 # Project deployment
-The root directory of the project contains seven folders and four files. The functions of each folder and file are as follows:
+The root directory of the project contains seven folders and four files.The functions of each folder and file are [shown](https://www.processon.com/embed/63c9de808363e12bdd5be0d9) below:
+
+![Ngina 服务器框架](https://user-images.githubusercontent.com/98629981/215273229-a569921d-f4b4-4a29-a3d9-d447a39fe398.jpg)
+
 
 `_include`, which stores all header files of this project, including all function declarations, macro definitions, global variable declarations, etc.
 
