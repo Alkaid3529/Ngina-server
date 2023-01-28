@@ -28,3 +28,7 @@ The root directory of the project contains seven folders and four files. The fun
 `makefile`, compile file.
 
 `nginx.conf`, project configuration information, stores many important functional options.
+
+# Project process
+![aa97bb891cd9b07404ed103087a63b8](https://user-images.githubusercontent.com/98629981/215250278-13b95a2e-d73d-4a18-84a7-bbe37969bed3.png)
+
