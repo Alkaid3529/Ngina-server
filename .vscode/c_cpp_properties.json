@@ -10,7 +10,10 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "configurationProvider": "ms-vscode.makefile-tools"
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "intelliSenseMode": "gcc-x64",
+            "cppStandard": "c++11"
         }
     ],
     "version": 4

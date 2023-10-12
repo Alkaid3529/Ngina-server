@@ -55,6 +55,8 @@ int main(int argc, char *const *argv)
     int exitcode = 0; // 退出代码，先给0表示正常退出
     int i;            // 临时用
 
+
+
     // 初始化控制程序运行结束的变量
     g_stopEvent = 0; // 标记程序是否退出，0不退出
 
